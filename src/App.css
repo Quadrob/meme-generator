@@ -2,21 +2,108 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  border-bottom: 3px solid white;
 }
 
-.App-link {
-  color: #09d3ac;
+.logo1{
+    height: 100px;
+    width: 150px;
+    padding-right: 12%;
+}
+.logo2{
+    height: 100px;
+    width: 150px;
+    padding-left: 12%;
+}
+
+.form{
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+}
+
+.App-body{
+    color: white;
+}
+
+.App-footer{
+    color: white;
+    padding-top: 15px;
+}
+
+.submit {
+    box-shadow:inset 0px -3px 7px 0px #8a2a21;
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color:#c62d1f;
+    border-radius:3px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+    font-size:25px;
+    margin-top: 30px;
+	padding:10px 40px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+.submit:hover {
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color:#f24437;
+}
+.submit:active {
+	position:relative;
+	top:1px;
+}
+
+.topText{
+    font-size: 30px;
+    color: black;
+    margin: 35px 0px 5px 0px;
+    height: 40px;
+    width: 20%;
+}
+
+.bottomText{
+    font-size: 30px;
+    color: black;
+    margin: 35px 5px 5px 5px;
+    width: 20%;
+}
+
+.displayMeme{
+    color: white;
+    font-size: 45px;
+    font-family:'Passion One', 'Ultra', 'Luckiest Guy', 'baloo', 'Bowlby One SC', cursive;
+    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+    padding: 30px 0px 0px 0px;
+    position: relative;
+    text-align: center;
+}
+
+.meme{
+width: 50%;
+}
+
+.top{
+    position: absolute;
+    top:5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bottom{
+    position: absolute;
+    bottom: -3%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
